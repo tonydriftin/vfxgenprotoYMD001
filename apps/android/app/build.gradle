@@ -1,0 +1,13 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 33
+    defaultConfig {
+        applicationId "com.ymd.vfx"
+        minSdkVersion 29
+        targetSdkVersion 33
+    }
+}
+
+dependencies {
+}

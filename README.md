@@ -32,3 +32,14 @@ A cross-platform engine that ingests video, analyzes motion in real time, and ge
                                    [GPU Effect Graph (Metal/GLES)]
                                                  ↓
                                         [Compositor → Encoder HW]
+```
+
+## Build (macOS)
+```
+cmake -S engine -B build
+cmake --build build
+```
+
+## NEXT STEPS
+- Integrate LK optical flow
+- Implement Android decode path
